@@ -11,9 +11,3 @@ class MyTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-# http://www.jeffknupp.com/blog/2013/11/29/improve-your-python-decorators-explained/?utm_source=Python+Weekly+Newsletter&utm_campaign=d70b0a6e79-Python_Weekly_Issue_116_December_5_2013&utm_medium=email&utm_term=0_9e26887fc5-d70b0a6e79-312663121#
-# http://docs.python-guide.org/en/latest/writing/tests/
-# http://cewing.github.io/training.codefellows/lectures/day09/jenkins.html
-# http://intermediate-and-advanced-software-carpentry.readthedocs.org/en/latest/testing-python.html
-# http://codefellows.github.io/sea-f2-python-sept14/session07.html
