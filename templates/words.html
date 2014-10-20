@@ -1,0 +1,17 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Word Counter{% endblock %}
+
+{% block content %}
+<div class="container">
+    {% for message in get_flashed_messages() %}
+    <div class="alert alert-success">
+        <button type="button">&times;</button>
+        {{ message }}
+    </div>
+    {% endfor %}
+
+    {{ wtf.quick_form(form) }}
+</div>
+{% endblock %}
